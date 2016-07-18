@@ -1,0 +1,20 @@
+class Change
+{
+	public static void change(int x,int y)
+	{
+		x = x + y;
+		y = x - y;
+		x = x -y;
+	}
+	
+	public static void main(String[] args)
+	{
+		int x = 4;
+		int y = 5;
+		
+		change(x,y);
+		System.out.println("x=" + x + ", y= "+y);
+	}
+
+
+}
